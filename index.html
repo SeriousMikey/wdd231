@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Hyer">
+    <meta name="description" content="WDD231 Home Page">
+    <title>WDD231 Home Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/current_year.js" defer></script>
+    <script src="scripts/last_modified.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <img src="images/myself.webp" alt="Photo of Michael Hyer">
+            <h1>Michael Hyer</h1>
+        </div>
+        <div class="hamburger">☰ Menu</div>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="">Chamber</a>
+            <a href="">Final</a>
+            <a href="https://github.com/SeriousMikey" target="_blank">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/michael-hyer-b2b323257/" target="_blank">LinkedIn</a>
+        </nav>
+    </header>    
+    <main>
+        <h1>Home</h1>
+        <div id="coursework-location-container">
+            <section id="coursework">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section id="location">
+                <h2>Layton, Utah</h2>
+                <img src="images/Layton-Temple-exterior-rendering.webp" alt="Layton Temple Exterior">
+                <p>Layton Temple Exterior</p>
+            </section>
+        </div>
+        <section id="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div id="filter">
+                <button data-subject="All">All</button>
+                <button data-subject="CSE">CSE</button>
+                <button data-subject="WDD">WDD</button>
+            </div>
+            <p id="creditsRequired">Credits Required: 1500000</p>
+            <div id="courses"></div>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentYear">&copy;1969</span> Michael Hyer Utah, USA</p>
+        <p class="lastModified">Last Update: Awhile ago</p>
+    </footer>
+</body>
+</html>

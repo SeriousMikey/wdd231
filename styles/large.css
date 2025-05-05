@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+    .header-top {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav a {
+        flex: 1;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: large;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    #coursework-location-container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    #coursework {
+        flex: 2;
+    }
+
+    #location {
+        flex: 1;
+        margin-top: 0;
+    }
+
+    #certificate {
+        width: 100%;
+    }
+
+    button {
+        font-size: large;
+    }
+
+    #creditsRequired {
+        font-size: large;
+    }
+}
