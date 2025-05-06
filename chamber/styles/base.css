@@ -58,12 +58,13 @@ nav a:hover {
 
 .darklight {
     grid-column: 4/5;
-    width: 10%;
-    margin-left: 20%;
+    padding: 25px;
     border-radius: 50%;
-    border: none;
+    margin-left: 20px;
     background: none;
     color: white;
+    background: white;
+    font-size: 2rem;
 }
 
 .darklight:hover {
@@ -81,14 +82,15 @@ nav a:hover {
 
 #viewButtons button {
     border: 2px solid rgb(21, 83, 159);
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 15px;
     width: 75px;
     margin: 10px;
+    background: white;
 }
 
 #viewButtons button:hover {
-    background: rgb(227, 227, 227);
+    background: rgb(237, 237, 237);
     cursor: pointer;
 }
 
@@ -118,6 +120,7 @@ nav a:hover {
     height: 200px;
     max-height: 200px;
     box-shadow: 2px 2px 5px black;
+    background: white;
 }
 
 .card img {
@@ -131,6 +134,7 @@ nav a:hover {
     border-top: 1px solid black;
     height: 100px;
     overflow: hidden;
+    background: white;
 }
 
 .list:last-child {
@@ -169,4 +173,8 @@ footer {
     color: white;
     border: 1px solid white;
     padding: 5px;
+}
+
+.dark {
+    background: black;
 }
