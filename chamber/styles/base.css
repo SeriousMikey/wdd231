@@ -1,0 +1,172 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: rgb(21, 83, 159);
+    padding: 30px;
+    border-bottom: 2px solid rgb(0, 162, 255);
+}
+
+header h1 {
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+.hamburger {
+    grid-column: 3/4;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.hamburger:hover {
+    background: rgb(14, 61, 118);;
+}
+
+.open {
+    display: flex;
+}
+
+nav {
+    grid-column: 3/4;
+    display: none;
+    flex-direction: column;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 5px auto;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: large;
+    border-top: 1px solid grey;
+    width: 100%;
+}
+
+nav a:hover {
+    background: rgb(14, 61, 118);
+}
+
+.darklight {
+    grid-column: 4/5;
+    width: 10%;
+    margin-left: 20%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.darklight:hover {
+    cursor: pointer;
+}
+
+#directoryMain {
+    text-align: center;
+    margin: auto;
+}
+
+#viewButtons {
+    margin-top: 50px;
+}
+
+#viewButtons button {
+    border: 2px solid rgb(21, 83, 159);
+    border-radius: 1px;
+    padding: 15px;
+    width: 75px;
+    margin: 10px;
+}
+
+#viewButtons button:hover {
+    background: rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+#businessContainer {
+    margin: 5rem;
+}
+
+.cardMode {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.listMode {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    width: 350px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 200px;
+    height: 200px;
+    max-height: 200px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.card img {
+    max-width: 100px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid black;
+    height: 100px;
+    overflow: hidden;
+}
+
+.list:last-child {
+    border-bottom: 1px solid black;
+}
+
+.list:nth-child(odd) {
+    background: rgb(218, 218, 218);
+}
+
+.list img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background: rgb(21, 83, 159);
+    color: white;
+    border-top: 2px solid rgb(0, 162, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.chamberLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.chamberLinks a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
