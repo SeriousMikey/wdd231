@@ -6,7 +6,7 @@
     <meta name="author" content="Michael Hyer">
     <meta name="description" content="Chamber Join">
     <meta property="og:title" content="Chamber Join">
-    <meta property="og:description" content="The Join Page of the Timbuktu Chamber of Commerce.">
+    <meta property="og:description" content="The Join Page of the Timbuktu Chamber of Commerce. This page lets you join the chamber of commerce.">
     <meta property="og:image" content="images/timbuktu_small.webp">
     <meta property="og:url" content="https://seriousmikey.github.io/wdd231/chamber/index.html">
 
@@ -62,6 +62,7 @@
             <label>
               Membership Level:
               <select name="membership" title="Select Membership Level" required>
+                <option value="" disabled selected>Select an option</option>
                 <option value="np">NP Membership (Free)</option>
                 <option value="bronze">Bronze Membership</option>
                 <option value="silver">Silver Membership</option>
@@ -76,43 +77,43 @@
             <input type="submit" value="Submit Application">
           </form>
           <section id="membershipCards">
-            <div class="card" style="--delay: 0s;">
+            <div class="card">
               <h3>NP Membership</h3>
-              <a href="#npModal">View Benefits</a>
+              <a href="#np_modal">View Benefits</a>
             </div>
-            <div class="card" style="--delay: 0.1s;">
+            <div class="card">
               <h3>Bronze Membership</h3>
-              <a href="#bronzeModal">View Benefits</a>
+              <a href="#bronze_modal">View Benefits</a>
             </div>
-            <div class="card" style="--delay: 0.2s;">
+            <div class="card">
               <h3>Silver Membership</h3>
-              <a href="#silverModal">View Benefits</a>
+              <a href="#silver_modal">View Benefits</a>
             </div>
-            <div class="card" style="--delay: 0.3s;">
+            <div class="card">
               <h3>Gold Membership</h3>
-              <a href="#goldModal">View Benefits</a>
+              <a href="#gold_modal">View Benefits</a>
             </div>
           </section>
     </main>
     <dialog id="npModal">
         <h2>NP Membership</h2>
         <p>Free for non-profits. Includes event discounts and listing in our directory.</p>
-        <button onclick="document.getElementById('npModal').close()">Close</button>
+        <button onclick="document.getElementById('np_modal').close()">Close</button>
     </dialog>
     <dialog id="bronzeModal">
         <h2>Bronze Membership</h2>
         <p>Includes spotlight listing and social media promotion.</p>
-        <button onclick="document.getElementById('bronzeModal').close()">Close</button>
+        <button onclick="document.getElementById('bronze_modal').close()">Close</button>
     </dialog>
     <dialog id="silverModal">
         <h2>Silver Membership</h2>
         <p>Includes Bronze benefits + event hosting options and ad space.</p>
-        <button onclick="document.getElementById('silverModal').close()">Close</button>
+        <button onclick="document.getElementById('silver_modal').close()">Close</button>
     </dialog>
     <dialog id="goldModal">
         <h2>Gold Membership</h2>
         <p>All Silver benefits + premium sponsorship, VIP invites, and more.</p>
-        <button onclick="document.getElementById('goldModal').close()">Close</button>
+        <button onclick="document.getElementById('gold_modal').close()">Close</button>
     </dialog>
 
     <footer>

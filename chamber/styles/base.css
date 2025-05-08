@@ -148,7 +148,6 @@ footer {
     animation: fadeInUp 0.5s ease forwards;
     opacity: 0;
     transform: translateY(20px);
-    animation-delay: var(--delay);
 }
     
 .card a {
