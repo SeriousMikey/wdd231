@@ -74,4 +74,24 @@
     .heroContainer img {
         height: 100%;
     }
+    .container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    #joinMain {
+        display: flex;
+        justify-self: center;
+        gap: 10%;
+    }
+
+    form {
+        min-width: 600px;
+    }
+  
+    .membership-cards {
+      flex: 1;
+      position: sticky;
+      top: 1rem;
+    }
 }

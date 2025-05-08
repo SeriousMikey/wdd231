@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michael Hyer">
-    <meta name="description" content="Chamber Home">
-    <meta property="og:title" content="Chamber Home">
-    <meta property="og:description" content="The Home Page of the Timbuktu Chamber of Commerce.">
+    <meta name="description" content="Chamber Join">
+    <meta property="og:title" content="Chamber Join">
+    <meta property="og:description" content="The Join Page of the Timbuktu Chamber of Commerce.">
     <meta property="og:image" content="images/timbuktu_small.webp">
     <meta property="og:url" content="https://seriousmikey.github.io/wdd231/chamber/index.html">
 
-    <title>Timbuktu Chamber Home</title>
+    <title>Timbuktu Chamber Join</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -31,34 +31,90 @@
         <button class="darklight">🌗</button>
         <div class="hamburger">☰</div>
     </header>
-    <main id="homeMain">
-        <div class="heroContainer">
-            <picture>
-                <source media="(max-width: 768px)" srcset="images/timbuktu_small.webp">
-                <img src="images/timbuktu_large.webp" alt="Hero">
-            </picture>
-            <a href="join.html">
-                <div id="heroButton">Join the Chamber!</div>
-            </a>
-        </div>        
-        <h1>Home</h1>
-        <section id="homeContent">
-            <section id="eventsAndWeather">
-                <div id="events">
-                    <h2>Events</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius optio vero incidunt laudantium deserunt itaque ea neque. Nisi enim possimus sint? Dolore earum ducimus numquam ex, sed eum porro impedit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos non unde nemo quia accusantium pariatur omnis cumque nulla dolorum dolorem consequatur necessitatibus repudiandae, voluptas earum rerum hic totam. Tempora, exercitationem!</p>
-                </div>
-                <div id="currentWeather">
-                    <h2>Current Weather</h2>
-                    <div id="currentWeatherInfo"></div>
-                </div>
-                <div id="weatherForecast">
-                </div>
-            </section>
-            <section id="spotlightContainer">
-            </section>
-        </section>
+    <h1>Join</h1>
+    <main id="joinMain">
+        <form method="get" action="thankyou.html" id="membershipForm">
+            <h1>Membership Application</h1>
+            <label>
+              First Name:
+              <input type="text" name="firstName" title="First Name" required autocomplete="given-name">
+            </label>
+            <label>
+              Last Name:
+              <input type="text" name="lastName" title="Last Name" required autocomplete="family-name">
+            </label>
+            <label>
+              Title/Role:
+              <input type="text" name="title" title="Your Title" autocomplete="organization-title">
+            </label>
+            <label>
+              Email:
+              <input type="email" name="email" title="Email Address" placeholder="example@example.com" autocomplete="email" required>
+            </label>
+            <label>
+              Mobile Phone:
+              <input type="tel" name="phone" title="Mobile Phone" autocomplete="tel" required>
+            </label>
+            <label>
+              Organization Name:
+              <input type="text" name="organization" title="Business or Organization Name" required autocomplete="organization">
+            </label>
+            <label>
+              Membership Level:
+              <select name="membership" title="Select Membership Level" required>
+                <option value="np">NP Membership (Free)</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+            <label>
+              Business Description:
+            </label>
+            <textarea name="description" title="Business Description"></textarea>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Submit Application">
+          </form>
+          <section id="membershipCards">
+            <div class="card" style="--delay: 0s;">
+              <h3>NP Membership</h3>
+              <a href="#npModal">View Benefits</a>
+            </div>
+            <div class="card" style="--delay: 0.1s;">
+              <h3>Bronze Membership</h3>
+              <a href="#bronzeModal">View Benefits</a>
+            </div>
+            <div class="card" style="--delay: 0.2s;">
+              <h3>Silver Membership</h3>
+              <a href="#silverModal">View Benefits</a>
+            </div>
+            <div class="card" style="--delay: 0.3s;">
+              <h3>Gold Membership</h3>
+              <a href="#goldModal">View Benefits</a>
+            </div>
+          </section>
     </main>
+    <dialog id="npModal">
+        <h2>NP Membership</h2>
+        <p>Free for non-profits. Includes event discounts and listing in our directory.</p>
+        <button onclick="document.getElementById('npModal').close()">Close</button>
+    </dialog>
+    <dialog id="bronzeModal">
+        <h2>Bronze Membership</h2>
+        <p>Includes spotlight listing and social media promotion.</p>
+        <button onclick="document.getElementById('bronzeModal').close()">Close</button>
+    </dialog>
+    <dialog id="silverModal">
+        <h2>Silver Membership</h2>
+        <p>Includes Bronze benefits + event hosting options and ad space.</p>
+        <button onclick="document.getElementById('silverModal').close()">Close</button>
+    </dialog>
+    <dialog id="goldModal">
+        <h2>Gold Membership</h2>
+        <p>All Silver benefits + premium sponsorship, VIP invites, and more.</p>
+        <button onclick="document.getElementById('goldModal').close()">Close</button>
+    </dialog>
+
     <footer>
         <div class="chamberInfo">
             <h4>Timbuktu Chamber of Commerce</h4>
@@ -83,7 +139,6 @@
     <script src="scripts/last_modified.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/spotlight.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>
