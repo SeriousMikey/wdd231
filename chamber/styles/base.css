@@ -184,3 +184,126 @@ footer {
     text-shadow: none;
     font-style: italic;
 }
+
+/* HOME */
+.heroContainer {
+    position: relative;
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.heroContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#heroButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    background: rgb(21, 83, 159);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#homeMain h1 {
+    margin: 10px 30px;
+}
+
+#homeContent,
+#eventsAndWeather,
+#spotlightContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+}
+
+#events,
+#currentWeather,
+#weatherForecast {
+    display: flex;
+    min-height: 300px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background: rgb(226, 226, 226);
+    border: 1px solid rgb(0, 162, 255);
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#events h2,
+#currentWeather h2,
+#weatherForecast h2 {
+    width: 100%;
+    background: rgb(21, 83, 159);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#currentWeather {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#currentWeather img {
+    max-width: 100px;
+    height: auto;
+}
+
+#currentWeatherInfo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+}
+
+#currentWeatherInfo p {
+    font-size: large;
+}
+
+#weatherForecast p {
+    font-size: larger;
+    padding: 5px;
+}
+
+.spotlight {
+    background: rgb(232, 232, 232);
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.spotlightInfo {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+}
+
+.spotlightInfo img {
+    max-width: 80px;
+    height: 80px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.spotlight text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

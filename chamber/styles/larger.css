@@ -38,4 +38,31 @@
     nav a:hover {
         background: rgb(14, 61, 118);
     }
+
+    #eventsAndWeather {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 0.5fr;
+        gap: 10px;
+    }
+
+    #events,
+    #currentWeather,
+    #weatherForecast {
+        height: auto;
+    }
+
+    #spotlightContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .spotlight {
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
 }
