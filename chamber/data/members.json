@@ -6,7 +6,7 @@
             "phone":"(801) 544-8381",
             "url":"https://www.mcdonalds.com/us/en-us/location/ut/layton/w-industrial-park-dr-wm-1699/29590.html?cid=RF:YXT:RoN::Clicks",
             "logo":"images/logos/mcdonalds.webp",
-            "level":3
+            "level":"Gold"
         },
         {
             "name":"AT&T",
@@ -14,7 +14,7 @@
             "phone":"(801) 444-5171",
             "url":"https://www.att.com/stores/utah/layton/241?cjevent=478dbdeedea511ee836f46390a1cb82b&source=EC1NAT10600aff12A&wtExtndSource=100216155",
             "logo":"images/logos/att.webp",
-            "level":2
+            "level":"Silver"
         },
         {
             "name":"RCWilley",
@@ -22,7 +22,7 @@
             "phone":"(801) 774-2800",
             "url":"https://www.rcwilley.com/location/Utah/Layton-Utah-Furniture-Store?utm_medium=organic&utm_campaign=store-listing&utm_content=layton&utm_source=rakuten&utm_medium=affiliate&utm_campaign=siteplug&ranMID=39945&ranEAID=PqGoi0DnEyQ&ranSiteID=PqGoi0DnEyQ-Rfj2kALmTDl86ZYrveFTlw",
             "logo":"images/logos/rcwilley.webp",
-            "level":3
+            "level":"Gold"
         },
         {
             "name":"Layton Hills Mall",
@@ -30,7 +30,7 @@
             "phone":"(801) 546-3471",
             "url":"https://www.shoplaytonhills.com/",
             "logo":"images/logos/mall.webp",
-            "level":2
+            "level":"Silver"
         },
         {
             "name":"Layton Park Hotel",
@@ -38,7 +38,7 @@
             "phone":"(801) 896-0271",
             "url":"https://www.bestwestern.com/en_US/book/hotel-rooms.45085.html?iata=00171890&ssob=BLBWI0003G&cid=BLBWI0003G:yext:website:45085",
             "logo":"images/logos/hotel.webp",
-            "level":1
+            "level":"Bronze"
         },
         {
             "name":"Layton Marketplace",
@@ -46,7 +46,7 @@
             "phone":"(801) 485-7770",
             "url":"https://www.woodburycorp.com/portfolio/layton-marketplace-2/",
             "logo":"images/logos/marketplace.webp",
-            "level":1
+            "level":"Bronze"
         },
         {
             "name":"NPS",
@@ -54,7 +54,7 @@
             "phone":"(801) 499-5300",
             "url":"https://npsstore.com/",
             "logo":"images/logos/nps.webp",
-            "level":1
+            "level":"Bronze"
         }
     ]
 }

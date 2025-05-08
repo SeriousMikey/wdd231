@@ -61,8 +61,17 @@
     
     .spotlight {
         width: 100%;
-        max-width: 400px;
+        max-width: 450px;
         box-sizing: border-box;
         padding: 10px;
+    }
+
+    .heroContainer {
+        width: 90%;
+        overflow: hidden;
+    }
+    
+    .heroContainer img {
+        height: 100%;
     }
 }

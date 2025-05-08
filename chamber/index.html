@@ -33,75 +33,29 @@
     </header>
     <main id="homeMain">
         <div class="heroContainer">
-            <img src="" alt="Hero">
-            <button id="heroButton">Keynote Tickets</button>
+            <picture>
+                <source media="(max-width: 768px)" srcset="images/timbuktu_small.webp">
+                <img src="images/timbuktu_large.webp" alt="Hero">
+            </picture>
+            <a href="join.html">
+                <button id="heroButton" type="button">Join the Chamber!</button>
+            </a>
         </div>        
         <h1>Home</h1>
         <section id="homeContent">
             <section id="eventsAndWeather">
                 <div id="events">
                     <h2>Events</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius optio vero incidunt laudantium deserunt itaque ea neque. Nisi enim possimus sint? Dolore earum ducimus numquam ex, sed eum porro impedit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos non unde nemo quia accusantium pariatur omnis cumque nulla dolorum dolorem consequatur necessitatibus repudiandae, voluptas earum rerum hic totam. Tempora, exercitationem!</p>
                 </div>
                 <div id="currentWeather">
                     <h2>Current Weather</h2>
-                    <div id="currentWeatherInfo">
-                        <img src="" alt="Weather Icon">
-                        <p>75 F<br>
-                        Party Cloudy<br>
-                        High: 85<br>
-                        Low: 52<br>
-                        Humidity: 34%<br>
-                        Sunrise: 7:30am<br>
-                        Sunset: 9:59pm</p>
-                    </div>
+                    <div id="currentWeatherInfo"></div>
                 </div>
                 <div id="weatherForecast">
-                    <h2>Weather Forecast</h2>
-                    <p>Today: 90F</p>
-                    <p>Wednesday: 89F</p>
-                    <p>Thursday: 68F</p>
                 </div>
             </section>
             <section id="spotlightContainer">
-                <div class="spotlight">
-                    <h3>Business Name</h3>
-                    <p>Business Tag Line</p>
-                    <hr/>
-                    <div class="spotlightInfo">
-                        <img src="business.jpg" alt="Business Photo">
-                        <div class="spotlightText">
-                          <p><strong>EMAIL: </strong><span class="spotlightEmail">info@gmail.com</span></p>
-                          <p><strong>PHONE: </strong><span class="spotlightPhone">800-555-1234</span></p>
-                          <p><strong>URL: </strong><span class="spotlightUrl">mybusiness.com</span></p>
-                        </div>
-                      </div>                      
-                </div>
-                <div class="spotlight">
-                    <h3>Business Name</h3>
-                    <p>Business Tag Line</p>
-                    <hr/>
-                    <div class="spotlightInfo">
-                        <img src="business.jpg" alt="Business Photo">
-                        <div class="spotlightText">
-                          <p><strong>EMAIL: </strong><span class="spotlightEmail">info@gmail.com</span></p>
-                          <p><strong>PHONE: </strong><span class="spotlightPhone">800-555-1234</span></p>
-                          <p><strong>URL: </strong><span class="spotlightUrl">mybusiness.com</span></p>
-                        </div>
-                      </div>                      
-                </div>
-                <div class="spotlight">
-                    <h3>Business Name</h3>
-                    <p>Business Tag Line</p>
-                    <hr/>
-                    <div class="spotlightInfo">
-                        <img src="business.jpg" alt="Business Photo">
-                        <div class="spotlightText">
-                          <p><strong>EMAIL: </strong><span class="spotlightEmail">info@gmail.com</span></p>
-                          <p><strong>PHONE: </strong><span class="spotlightPhone">800-555-1234</span></p>
-                          <p><strong>URL: </strong><span class="spotlightUrl">mybusiness.com</span></p>
-                        </div>
-                      </div>                      
-                </div>
             </section>
         </section>
     </main>
@@ -127,5 +81,7 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

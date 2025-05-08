@@ -187,22 +187,31 @@ footer {
 
 /* HOME */
 .heroContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 100%;
-    max-height: 250px;
-    overflow: hidden;
+    border: 1px solid rgb(0, 162, 255);
+    border-top: none;
+    justify-self: center;
+    background: rgb(255, 235, 220);
 }
 
 .heroContainer img {
     width: 100%;
-    height: auto;
-    display: block;
+    object-fit: contain;
+}
+
+.heroContainer,
+.heroContainer img {
+    max-height: 400px;
 }
 
 #heroButton {
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    right: 10px;
     font-size: 0.9rem;
     padding: 8px 12px;
     background: rgb(21, 83, 159);
@@ -252,25 +261,33 @@ footer {
     border-top-left-radius: 10px;
 }
 
+#events p {
+    padding: 15px;
+    font-size: large;
+}
+
 #currentWeather {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#currentWeather img {
+.currentWeatherInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+#currentWeatherInfo img {
     max-width: 100px;
     height: auto;
 }
 
-#currentWeatherInfo {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 10px;
-}
-
 #currentWeatherInfo p {
     font-size: large;
+    margin: 0;
+    text-align: center;
 }
 
 #weatherForecast p {
@@ -285,21 +302,19 @@ footer {
     margin: 10px auto;
     padding: 10px;
     text-align: center;
+    min-height: 300px;
+    max-height: 300px;
 }
 
 .spotlightInfo {
     display: flex;
-    align-items: flex-start;
     gap: 15px;
     padding: 20px;
 }
 
 .spotlightInfo img {
-    max-width: 80px;
-    height: 80px;
-    height: auto;
-    object-fit: cover;
-    flex-shrink: 0;
+    width: 40%;
+    height: 40%;
 }
 
 .spotlight text {
