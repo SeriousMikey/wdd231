@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michael Hyer">
-    <title>Sock Shop Catalog</title>
-    <meta name="description" content="Catalog Page of the Sock Shop. A fictional sock store.">
-    <meta property="og:title" content="Sock Shop Catalog Page">
-    <meta property="og:description" content="Catalog Page of the Sock Shop. A fictional sock store.">
+    <title>Sock Shop Cart</title>
+    <meta name="description" content="Cart Page of the Sock Shop. A fictional sock store.">
+    <meta property="og:title" content="Sock Shop Cart Page">
+    <meta property="og:description" content="Cart Page of the Sock Shop. A fictional sock store.">
     <meta property="og:image" content="">
-    <meta property="og:url" content="https://seriousmikey.github.io/wdd231/final/catalog.html">
+    <meta property="og:url" content="https://seriousmikey.github.io/wdd231/final/purchase.html">
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
@@ -24,13 +23,14 @@
         <h1 class="headerTitle">~ Sock Shop ~</h1>
         <nav class="nav">
             <a href="index.html">Home</a>
-            <a href="catalog.html" class="currentPage">Catalog</a>
-            <a href="cart.html">Cart</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="cart.html" class="currentPage">Cart</a>
         </nav>
         <div class="hamburger">☰ Menu</div>
     </header>
     <main>
-        <h2>Catalog</h2>
+        <h2>Cart</h2>
+        <button id="clearCart" type="button">Clear Cart</button>
         <section class="itemsContainer"></section>
     </main>
     <footer>
@@ -50,18 +50,27 @@
             <p class="lastMod">Last Updated: xx:xx:xx</p>
         </div>
     </footer>
-    <div id="purchaseModal" class="modal">
+    <div id="removeModal" class="modal">
         <div class="modal-content">
-            <p id="modalItemName"></p>
+            <p id="removeModalText"></p>
             <div class="modal-buttons">
-                <button id="modalYes">Yes</button>
-                <button id="modalNo">No</button>
+                <button id="removeYes">Yes</button>
+                <button id="removeNo">No</button>
             </div>
         </div>
     </div>
+    <div id="clearCartModal" class="modal">
+    <div class="modal-content">
+        <p>Are you sure you want to clear the entire cart?</p>
+        <div class="modal-buttons">
+            <button id="clearCartYes">Yes</button>
+            <button id="clearCartNo">No</button>
+        </div>
+    </div>
+</div>
     <script src="scripts/last_modified.js" defer></script>
     <script src="scripts/current_year.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
-    <script src="scripts/catalog.js" type="module" defer></script>
+    <script src="scripts/cart.js" type="module" defer></script>
 </body>
 </html>

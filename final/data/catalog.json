@@ -3,19 +3,99 @@
     [
         {
             "name": "Crab Socks",
-            "image": "images/crabsocks.webp"
+            "image": "images/crabsocks.webp",
+            "width": 186,
+            "height": 186
         },
         {
             "name": "Jimmy Socks",
-            "image": "images/jimmysocks.webp"
+            "image": "images/jimmysocks.webp",
+            "width": 160,
+            "height": 160
         },
         {
             "name": "Koolaid Socks",
-            "image": "images/koolaidsocks.webp"
+            "image": "images/koolaidsocks.webp",
+            "width": 160,
+            "height": 160
         },
         {
             "name": "South Socks",
-            "image": "images/southsocks.webp"
+            "image": "images/southsocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "Crabby Socks",
+            "image": "images/crabsocks.webp",
+            "width": 186,
+            "height": 186
+        },
+        {
+            "name": "Jimmier Socks",
+            "image": "images/jimmysocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "Coolaid Socks",
+            "image": "images/koolaidsocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "North Socks",
+            "image": "images/southsocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "Crabbier Socks",
+            "image": "images/crabsocks.webp",
+            "width": 186,
+            "height": 186
+        },
+        {
+            "name": "Jimbo Socks",
+            "image": "images/jimmysocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "Koolaying Socks",
+            "image": "images/koolaidsocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "East Socks",
+            "image": "images/southsocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "Crabbiest Socks",
+            "image": "images/crabsocks.webp",
+            "width": 186,
+            "height": 186
+        },
+        {
+            "name": "Carl Socks",
+            "image": "images/jimmysocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "Hotaid Socks",
+            "image": "images/koolaidsocks.webp",
+            "width": 160,
+            "height": 160
+        },
+        {
+            "name": "West Socks",
+            "image": "images/southsocks.webp",
+            "width": 160,
+            "height": 160
         }
     ]
 }

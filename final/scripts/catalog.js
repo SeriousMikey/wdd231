@@ -7,5 +7,5 @@ const itemsContainer = document.querySelector(".itemsContainer");
 
 document.addEventListener("DOMContentLoaded", () => {
     setupModalHandlers("purchase");
-    populateItems(linksURL, itemsContainer, true, 3);
+    populateItems(linksURL, itemsContainer);
 });

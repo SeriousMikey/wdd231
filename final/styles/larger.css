@@ -1,6 +1,5 @@
 @media (min-width: 768px) {
     header {
-        display: grid;
         grid-template-areas: 
         "img title"
         "img nav";
@@ -13,6 +12,10 @@
         font-size: 3rem;
     }
 
+    header img {
+        width: 100%;
+    }
+
     #sockHero {
         width: 80%;
         border: 2px solid #2D3142;
@@ -20,7 +23,7 @@
         border-radius: 10px;
     }
 
-    #popularItemsContainer {
+    .itemsContainer {
         flex-direction: row;
         margin: 50px auto;
     }
@@ -43,7 +46,6 @@
         padding-bottom: 20px;
         border-left: 2px dashed #960200;
         border-top: 2px dashed #960200;
-        border-bottom: 2px solid #2D3142;
     }
 
     nav a {
