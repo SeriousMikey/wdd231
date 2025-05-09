@@ -1,5 +1,5 @@
 const discoverCards = document.getElementById("discoverCards");
-let linksURL = "https://seriousmikey.github.io/wdd231/chamber/data/members.json";
+let linksURL = "https://seriousmikey.github.io/wdd231/chamber/data/items.json";
 //let linksURL = "data/items.json"
 
 async function getLinks() {
