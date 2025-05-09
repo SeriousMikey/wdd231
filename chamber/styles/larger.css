@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
     header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -93,5 +93,15 @@
       flex: 1;
       position: sticky;
       top: 1rem;
+    }
+
+    #discoverCards {
+        grid-template-areas:
+          "card1 card2 card3 card4"
+          "card5 card6 card7 card8";
+    }
+
+    .discoverCard img:hover {
+        box-shadow: 4px 4px 40px black;
     }
 }

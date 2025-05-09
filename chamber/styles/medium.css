@@ -1,0 +1,13 @@
+@media (min-width: 641px) and (max-width: 1024px) {
+    #discoverCards {
+      grid-template-areas:
+        "card1 card2"
+        "card3 card4"
+        "card5 card6"
+        "card7 card8";
+    }
+
+    .discoverCard img:hover {
+        box-shadow: 4px 4px 40px black;
+    }
+  }

@@ -1,0 +1,53 @@
+{
+    "items":
+    [
+        {
+            "name": "AT&T",
+            "address": "2035 Harris Blvd, Layton, UT 84041",
+            "description": "A place where you can buy phones.",
+            "image": "images/smaller/at&t.webp"
+        },
+        {
+            "name": "Great Room Escape",
+            "address": "525 Ring Rd, Layton, UT 84041",
+            "description": "A place where you can escape from interesting rooms.",
+            "image": "images/smaller/escape.webp"
+        },
+        {
+            "name": "Layton Park Hotel",
+            "address": "798 W 1425 N, Layton, UT 84041",
+            "description": "A place where you can sleep and keep your things.",
+            "image": "images/smaller/hotel.webp"
+        },
+        {
+            "name": "Layton Hills Mall",
+            "address": "1201 N Hill Field Rd, Layton, UT 84041",
+            "description": "A place where you can buy many different things.",
+            "image": "images/smaller/mall.webp"
+        },
+        {
+            "name": "Layton Marketplace",
+            "address": "700 W Antelope Dr, Layton, UT 84041",
+            "description": "A place where you can explore many different shops and restaurants.",
+            "image": "images/smaller/marketplace.webp"
+        },
+        {
+            "name": "McDonald's",
+            "address": "745 W Hill Field Rd, Layton, UT 84041",
+            "description": "A place where you can eat cheap food.",
+            "image": "images/smaller/mcdonalds.webp"
+        },
+        {
+            "name": "NPS",
+            "address": "1150 N Main St, Layton, UT 84041",
+            "description": "A place where you can find many different items.",
+            "image": "images/smaller/nps.webp"
+        },
+        {
+            "name": "RCWilley",
+            "address": "2205 N 1400 W, Layton, UT 84041",
+            "description": "A place where you can buy furniture.",
+            "image": "images/smaller/rcwilley.webp"
+        }
+    ]
+}
