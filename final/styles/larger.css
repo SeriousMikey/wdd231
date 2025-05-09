@@ -10,18 +10,19 @@
     .nav { grid-area: nav; }
 
     header h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     #sockHero {
         width: 80%;
-        border: 1px solid #2D3142;
+        border: 2px solid #2D3142;
         border-top: none;
         border-radius: 10px;
     }
 
     #popularItemsContainer {
         flex-direction: row;
+        margin: 50px auto;
     }
 
     footer {
@@ -38,7 +39,11 @@
         flex-direction: row;
         height: 90%;
         align-self: center;
-        margin-bottom: 20px;
+        margin-bottom: 14px;
+        padding-bottom: 20px;
+        border-left: 2px dashed #960200;
+        border-top: 2px dashed #960200;
+        border-bottom: 2px solid #2D3142;
     }
 
     nav a {
@@ -47,6 +52,11 @@
         height: 90%;
         align-content: center;
         font-weight: bold;
+        border-right: 1px solid #2D3142;
+    }
+
+    nav a:nth-child(3) {
+        border-right: none;
     }
 
     .hamburger {

@@ -1,0 +1,21 @@
+{
+    "items":
+    [
+        {
+            "name": "Crab Socks",
+            "image": "images/crabsocks.webp"
+        },
+        {
+            "name": "Jimmy Socks",
+            "image": "images/jimmysocks.webp"
+        },
+        {
+            "name": "Koolaid Socks",
+            "image": "images/koolaidsocks.webp"
+        },
+        {
+            "name": "South Socks",
+            "image": "images/southsocks.webp"
+        }
+    ]
+}
