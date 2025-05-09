@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+#planContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #2D3142;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+}
+
+#planContainer li {
+    list-style-type: circle;
+}
+
+#typography {
+    font-family: "Geist Mono", monospace;
+}
+
+#accent1 {
+    color: #960200;
+}
+
+#accent2 {
+    color: #00A7E1;
+}
+
+#background {
+    color: #F5F0F6;
+    background: black;
+    width: fit-content;
+}
+
+#other {
+    color: #2D3142;
+}
+
+#text {
+    color: #131112;
+}
+
+#planContainer img {
+    border: 1px solid black;
+}
