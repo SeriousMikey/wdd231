@@ -1,5 +1,5 @@
-//let linksURL = "https://seriousmikey.github.io/wdd231/chamber/data/members.json";
-let linksURL = "data/members.json";
+let linksURL = "https://seriousmikey.github.io/wdd231/chamber/data/members.json";
+//let linksURL = "data/members.json";
 let display = document.getElementById("businessContainer");
 let cardButton = document.getElementById("cardButton");
 let listButton = document.getElementById("listButton");

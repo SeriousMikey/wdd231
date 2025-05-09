@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+/* GENERAL */
+body {
+    font-family: "Geist Mono", monospace;
+}
+
+header {
+    display: grid;
+    border: 2px solid #2D3142;
+    background: #00A7E1;
+    align-items: center;
+    grid-template-areas: 
+    "img title"
+    "burger burger";
+}
+.headerImg { grid-area: img; }
+.headerTitle { grid-area: title; }
+.hamburger { grid-area: burger; }
+
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: -5px -5px 3px #F5F0F6;
+    color: #131112;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 15px auto;
+    border-radius: 10%;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+nav a {
+    padding: 5px;
+    text-align: center;
+    flex: 1;
+    text-decoration: none;
+    border-top: 1px solid #2D3142;
+    color: #131112;
+    text-shadow: 1px 1px 5px #F5F0F6;
+    align-self: center;
+}
+
+nav a:hover {
+    cursor: pointer;
+    background: #1cc1f8;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2D3142;
+    background: #960200;
+    color: #F5F0F6;
+    text-shadow: 1px 1px 5px #131112;
+    text-align: center;
+}
+
+footer div {
+    margin: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F5F0F6;
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 3rem;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.hambuger:hover {
+    background: #1cc1f8;
+}
+
+/* HOME */
+#sockHero {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#popularItemsContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin: 50px auto;
+    justify-content: center;
+    justify-self: center;
+}
+
+.popularItem {
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed #1cc1f8;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+.popularItem:nth-child(2) {
+    border: 2px dashed #960200;
+}
+
+.popularItem img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #2D3142;
+    max-height: 180px;
+}

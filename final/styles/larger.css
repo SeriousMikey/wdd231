@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-areas: 
+        "img title"
+        "img nav";
+    }
+    .headerImg { grid-area: img; }
+    .headerTitle { grid-area: title; }
+    .nav { grid-area: nav; }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    #sockHero {
+        width: 80%;
+        border: 1px solid #2D3142;
+        border-top: none;
+        border-radius: 10px;
+    }
+
+    #popularItemsContainer {
+        flex-direction: row;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    footer div {
+        flex: 1;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        height: 90%;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        border-top: none;
+        font-size: 1.8rem;
+        height: 90%;
+        align-content: center;
+        font-weight: bold;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

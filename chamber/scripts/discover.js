@@ -1,6 +1,6 @@
 const discoverCards = document.getElementById("discoverCards");
-//let linksURL = "https://seriousmikey.github.io/wdd231/chamber/data/members.json";
-let linksURL = "data/items.json"
+let linksURL = "https://seriousmikey.github.io/wdd231/chamber/data/members.json";
+//let linksURL = "data/items.json"
 
 async function getLinks() {
     const response = await fetch(linksURL);
