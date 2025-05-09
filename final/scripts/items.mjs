@@ -30,7 +30,8 @@ async function populateItems(source, parent, canPurchase = true, itemNumber = 0 
 
         div.innerHTML = `
             <img src="${item.image}" alt="${item.name}" width=${item.width} height=${item.height} loading="lazy">
-            <p><i>${item.name}</i></p>
+            <p class="smallText">${item.width}x${item.height}</p>
+            <p>${item.name}</p>
             ${canPurchase 
                 ? `<button class="purchaseBtn" data-id='${JSON.stringify(item)}'>Purchase</button>`
                 : `<button class="removeBtn" data-index="${index}">Remove</button>`}

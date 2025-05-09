@@ -156,7 +156,14 @@ h2 {
     margin: 0 auto;
     width: 90%;
     border: 1px solid #2D3142;
-    max-height: 180px;
+    max-height: 160px;
+}
+
+.smallText {
+    font-size: smaller;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
 }
 
 .purchaseBtn,
